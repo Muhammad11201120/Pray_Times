@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap" rel="stylesheet">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div>
+                <h1 id="city">مكة المكرمة</h1>
+            </div>
+            <div style="display: flex;">
+                <p id="day" style="margin-left: 10px;">الجمعة</p>
+                <span style="margin-left: 10px;"> , </span>
+                <p id="date">20/10/2024</p>
+            </div>
+            <hr>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="title">
+                    <p>الفجر</p>
+                </div>
+                <div class="body">
+                    <p id="fajr">04:11</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="title">
+                    <p>الشروق</p>
+                </div>
+                <div class="body">
+                    <p id="shrooq">04:11</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="title">
+                    <p>الظهر</p>
+                </div>
+                <div class="body">
+                    <p id="dhuhr">04:11</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="title">
+                    <p>العصر</p>
+                </div>
+                <div class="body">
+                    <p id="asr">04:11</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="title">
+                    <p>المغرب</p>
+                </div>
+                <div class="body">
+                    <p id="maghrib">04:11</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="title">
+                    <p>العشاء</p>
+                </div>
+                <div class="body">
+                    <p id="aisha">04:11</p>
+                </div>
+            </div>
+        </div>
+        <div class="selection">
+            <select id="select">
+
+            </select>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
